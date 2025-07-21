@@ -172,9 +172,28 @@ Image 2 <p>
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+### ✅ Azure Virtual Machine Deployment Completed
+
+Once the virtual machine setup is successfully validated, Azure will deploy the VM and display the confirmation screen shown above.
+
+#### ✔️ Deployment Details:
+- **VM OS:** Windows 10 Pro  
+- **Deployment Status:** Successful  
+- **Resource Group:** osticket-rg (or your specified group)  
+- **Region:** East US 2  
+- **Connection Method:** Remote Desktop Protocol (RDP)
+
+#### 🔗 Next Steps:
+1. Click **“Go to resource”** to open the VM dashboard.
+2. Note the **public IP address** – this is needed for remote access and browser-based testing.
+3. Connect to the VM using Remote Desktop:
+   - Open RDP:  
+     - **PC Name / IP:** `<your_vm_public_ip>`
+     - **Username:** `labuser`
+     - **Password:** `osTicketPassword1!`
+4. Proceed with installing the web server stack (IIS, PHP, MySQL) and osTicket.
+
+> 📸 *The image above confirms that the virtual machine deployment was completed successfully in the Azure Portal.*
 
 <p>
 (https://github.com/user-attachments/assets/e3e4e406-f057-4b7e-b025-4e4ffacfdc42)
