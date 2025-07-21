@@ -50,7 +50,50 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Visual C++ Redistributable (`VC_redist.x86.exe`)
 - MySQL 5.5.62 (`mysql-5.5.62-win32.msi`)  
   - Use **Typical Setup** and run **Configuration Wizard** post-installation
+## ⚙️ osTicket Configuration & IIS Setup
 
+### 6. Open IIS as Administrator
+
+### 7. Register PHP with IIS
+- In **PHP Manager**, register PHP using the following path:  
+  `C:\PHP\php-cgi.exe`
+
+### 8. Reload IIS
+- Open IIS, then **Stop** and **Start** the server.
+
+### 9. Install osTicket v1.15.8
+- Unzip `osTicket-v1.15.8.zip` from the `osTicket-Installation-Files` folder.
+- Copy the `upload` folder to:  
+  `C:\inetpub\wwwroot`
+- Rename `upload` to `osTicket`:  
+  `C:\inetpub\wwwroot\osTicket`
+
+### 10. Reload IIS Again
+- Stop and Start the IIS server once more.
+
+### 11. Launch osTicket in Browser
+- Go to: **Sites → Default Web Site → osTicket**
+- On the right pane, click: **Browse \*:80**
+
+### 12. Enable Required PHP Extensions
+- In IIS:  
+  Go to **Sites → Default Web Site → osTicket**
+- Double-click **PHP Manager**
+- Click: **Enable or disable an extension**, then enable the following:
+  - `php_imap.dll`
+  - `php_intl.dll`
+  - `php_opcache.dll`
+- Refresh the osTicket page in your browser to reflect changes.
+
+### 13. Rename Configuration File
+- Rename the sample config file:
+  - From:  
+    `C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php`
+  - To:  
+    `C:\inetpub\wwwroot\osTicket\include\ost-config.php`
+
+### 14. Assign Permissions to `ost-config.php`
+- Disable inheritance → Remove All permissions
 ---
 
 
