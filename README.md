@@ -133,15 +133,41 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 <img width="1896" height="859" alt="creating a virtual machine for osticket part 1" src="https://github.com/user-attachments/assets/6b21324a-4e61-4df7-b002-6608fefcabf8" />
 
+### ☁️ Creating a Virtual Machine in Microsoft Azure
 
+The following steps were used to provision a Windows 10 virtual machine to host the osTicket web application:
 
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+1. **Navigate to Azure Portal**  
+   Open [https://portal.azure.com](https://portal.azure.com) and sign in with your Azure account.
 
-<p>
+2. **Create a Resource Group**  
+   If you don’t have one, create a new resource group to organize your virtual machine and related services.
+
+3. **Start VM Creation**  
+   Go to **Virtual Machines** → Click **+ Create** → **Azure Virtual Machine**
+
+4. **Basic Configuration**
+   - **Virtual Machine Name:** `osticket-vm`
+   - **Region:** Choose a region close to your location (e.g., `East US 2`)
+   - **Availability Zone:** Default (or choose based on redundancy needs)
+   - **Image:** Windows 10 Pro, version 21H2 (or latest available)
+   - **Size:** Standard D2s v3 (2–4 vCPUs recommended)
+   - **Authentication Type:** Password  
+     - **Username:** `labuser`  
+     - **Password:** `osTicketPassword1!`
+
+5. **Networking and Inbound Ports**
+   - Enable RDP (port 3389) to allow remote desktop access
+   - Open port **80 (HTTP)** for web access
+
+6. **Review and Create**
+   - Click **Review + create**, then **Create** after validation passes.
+
+Once deployment is complete, connect to the VM using **Remote Desktop (RDP)** and proceed with the osTicket installation process.
+
+> 📸 *The image above shows the VM creation screen in Azure Portal.*
+
+Image 2 <p>
 <img width="1907" height="864" alt="created virtual machine for osticket" src="https://github.com/user-attachments/assets/9c4425e7-ac0e-4b48-86c4-84f252cb68e8" />
 
 </p>
