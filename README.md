@@ -6,10 +6,6 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -94,7 +90,40 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ### 14. Assign Permissions to `ost-config.php`
 - Disable inheritance → Remove All permissions
----
+## 🧩 Final Configuration & Database Setup
+
+### 15. Continue osTicket Setup in Browser
+- Click **Continue** on the osTicket setup page.
+- Enter basic configuration:
+  - **Helpdesk Name**
+  - **Default Email Address** (for receiving tickets)
+
+### 16. Create MySQL Database using HeidiSQL
+- From the `osTicket-Installation-Files` folder, install **HeidiSQL**.
+- Open **HeidiSQL** and:
+  - Create a new session with:
+    - **Username:** `root`
+    - **Password:** `root`
+  - Connect to the session
+  - Create a new database named: `osTicket`
+
+### 17. Complete Installation via Browser
+- Fill in the database info in the setup form:
+  - **MySQL Database:** `osTicket`
+  - **Username:** `root`
+  - **Password:** `root`
+- Click **Install Now!**
+
+### 18. Post-Installation Access
+- Admin Login URL:  
+  [http://localhost/osTicket/scp/login.php](http://localhost/osTicket/scp/login.php)
+- End-User Portal:  
+  [http://localhost/osTicket/](http://localhost/osTicket/)
+
+### 19. Final Cleanup Steps
+- Delete the setup directory:
+  ```bash
+  C:\inetpub\wwwroot\osTicket\setup
 
 
 
