@@ -199,8 +199,40 @@ Once the virtual machine setup is successfully validated, Azure will deploy the 
 (https://github.com/user-attachments/assets/e3e4e406-f057-4b7e-b025-4e4ffacfdc42)
 
 
-</p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+### 🎉 osTicket Installation Completed
+
+The screenshot above confirms that osTicket has been successfully installed on the server.
+
+#### ✅ Final Configuration Steps (Post-Install)
+
+To secure and complete the setup, follow these final steps:
+
+1. **Secure Configuration File**
+   - Change file permissions for `ost-config.php` to remove write access:
+     - **Command Line (Linux):**
+       ```bash
+       chmod 0644 include/ost-config.php
+       ```
+     - **Windows PowerShell:**
+       ```powershell
+       icacls include\ost-config.php /reset
+       ```
+     - **FTP or CPanel:**
+       - Right-click the file → Properties → Remove write permissions
+
+2. **Access osTicket**
+   - **User Portal:**  
+     [http://localhost/osTicket/](http://localhost/osTicket/)
+   - **Admin Panel (Staff Control Panel):**  
+     [http://localhost/osTicket/scp](http://localhost/osTicket/scp)
+
+3. **Resources for Further Setup**
+   - [osTicket Documentation](https://docs.osticket.com/)
+   - [osTicket Forums](https://forum.osticket.com/)
+
+> 💡 *Make sure your configuration file is secured before continuing. Now you're ready to configure departments, agents, email piping, and workflows from the Admin Panel!*
+
+> 📸 *This screen confirms a successful installation of osTicket v1.15.8.*
 </p>
 <br />
