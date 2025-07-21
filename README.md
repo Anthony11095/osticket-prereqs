@@ -22,11 +22,39 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+## 🧰 osTicket VM Setup – Prerequisites Summary
+
+### 1. Azure VM Configuration
+- **OS:** Windows 10  
+- **vCPUs:** 4  
+- **VM Name:** `osticket-vm`  
+- **Username:** `labuser`  
+- **Password:** `osTicketPassword1!`  
+
+### 2. Access
+- Connect via **Remote Desktop (RDP)**
+
+### 3. Installation Resources
+- Download and extract: `osTicket-Installation-Files.zip`  
+- Folder name: `osTicket-Installation-Files`
+
+### 4. Enable IIS with CGI
+- Enable feature:  
+  `World Wide Web Services → Application Development Features → CGI`
+
+### 5. Install Dependencies (from extracted folder)
+- PHP Manager for IIS (`PHPManagerForIIS_V1.5.0.msi`)
+- IIS Rewrite Module (`rewrite_amd64_en-US.msi`)
+- PHP 7.3.8  
+  - Unzip `php-7.3.8-nts-Win32-VC15-x86.zip` into `C:\PHP`
+- Visual C++ Redistributable (`VC_redist.x86.exe`)
+- MySQL 5.5.62 (`mysql-5.5.62-win32.msi`)  
+  - Use **Typical Setup** and run **Configuration Wizard** post-installation
+
+---
+
+
+
 
 <h2>Installation Steps</h2>
 
