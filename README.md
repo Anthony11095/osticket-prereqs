@@ -198,41 +198,48 @@ Once the virtual machine setup is successfully validated, Azure will deploy the 
 <p>
 (https://github.com/user-attachments/assets/e3e4e406-f057-4b7e-b025-4e4ffacfdc42)
 
+## osTicket Installation Completed
 
-<p>
-### 🎉 osTicket Installation Completed
+![osTicket Installer - Installation Success](https://user-images.githubusercontent.com/YOUR_IMAGE_LINK.jpg)
 
-The screenshot above confirms that osTicket has been successfully installed on the server.
+This screenshot shows the successful completion of the **osTicket** installation process via the browser-based setup interface (`localhost/osTicket/setup/install.php`). osTicket is an open-source support ticket system used to manage customer inquiries and IT helpdesk operations.
 
-#### ✅ Final Configuration Steps (Post-Install)
+### What the Screen Shows:
+- A confirmation message: **"Congratulations!"** indicating that osTicket has been successfully installed.
+- Instructions under **"Config file permission"** reminding the user to remove write access to the `ost-config.php` file for security purposes.
+- File permission change guidance is provided for multiple methods:
+  - CLI (`chmod 0644 include/ost-config.php`)
+  - Windows PowerShell
+  - FTP clients (e.g., WS_FTP)
+  - cPanel interface
+- Useful links listed below:
+  - osTicket URL: `http://localhost/osTicket/`
+  - Staff Control Panel: `http://localhost/osTicket/scp`
+  - osTicket Documentation: `https://docs.osticket.com/`
+  - Community Forums: `https://forum.osticket.com/`
 
-To secure and complete the setup, follow these final steps:
+### Steps That Led to This Screen:
 
-1. **Secure Configuration File**
-   - Change file permissions for `ost-config.php` to remove write access:
-     - **Command Line (Linux):**
-       ```bash
-       chmod 0644 include/ost-config.php
-       ```
-     - **Windows PowerShell:**
-       ```powershell
-       icacls include\ost-config.php /reset
-       ```
-     - **FTP or CPanel:**
-       - Right-click the file → Properties → Remove write permissions
+1. **Downloaded osTicket Package**  
+   - Obtained from the official osTicket website and extracted to the appropriate web server directory (e.g., `htdocs` for XAMPP or `www` for WAMP).
 
-2. **Access osTicket**
-   - **User Portal:**  
-     [http://localhost/osTicket/](http://localhost/osTicket/)
-   - **Admin Panel (Staff Control Panel):**  
-     [http://localhost/osTicket/scp](http://localhost/osTicket/scp)
+2. **Configured Web Server Environment**  
+   - Installed a local stack such as XAMPP, WAMP, or LAMP to host the PHP application.
+   - Verified that Apache and MySQL services were running.
 
-3. **Resources for Further Setup**
-   - [osTicket Documentation](https://docs.osticket.com/)
-   - [osTicket Forums](https://forum.osticket.com/)
+3. **Created a MySQL Database**  
+   - Used phpMyAdmin or command line to create a database and user with proper privileges for osTicket.
 
-> 💡 *Make sure your configuration file is secured before continuing. Now you're ready to configure departments, agents, email piping, and workflows from the Admin Panel!*
+4. **Launched the Web Installer**  
+   - Accessed the installer at `http://localhost/osTicket/setup/install.php`
+   - Entered database connection information, admin user credentials, and helpdesk site details.
 
-> 📸 *This screen confirms a successful installation of osTicket v1.15.8.*
-</p>
-<br />
+5. **Completed Installation**  
+   - Upon successful configuration, the installer validated all settings and finalized the setup.
+   - This screen confirms the process completed without errors.
+
+### Next Recommended Step:
+
+> Remove write permissions from the `ost-config.php` file to secure your installation before proceeding to the admin control panel.
+
+With installation complete, users can now begin configuring departments, ticket fields, help topics, and email integrations through the **Admin Panel**.
