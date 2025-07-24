@@ -130,6 +130,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
+Image 1.
 <p>
 <img width="1896" height="859" alt="creating a virtual machine for osticket part 1" src="https://github.com/user-attachments/assets/6b21324a-4e61-4df7-b002-6608fefcabf8" />
 
@@ -167,7 +168,7 @@ Once deployment is complete, connect to the VM using **Remote Desktop (RDP)** an
 
 > 📸 *The image above shows the VM creation screen in Azure Portal.*
 
-Image 2 <p>
+Image 2. <p>
 <img width="1907" height="864" alt="created virtual machine for osticket" src="https://github.com/user-attachments/assets/9c4425e7-ac0e-4b48-86c4-84f252cb68e8" />
 
 </p>
@@ -199,6 +200,8 @@ Once the virtual machine setup is successfully validated, Azure will deploy the 
 (https://github.com/user-attachments/assets/e3e4e406-f057-4b7e-b025-4e4ffacfdc42)
 
 ## osTicket Installation Completed
+
+Image 3.
 
 ![osTicket Installer - Installation Success](https://user-images.githubusercontent.com/YOUR_IMAGE_LINK.jpg)
 
