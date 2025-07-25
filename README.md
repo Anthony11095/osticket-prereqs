@@ -16,6 +16,28 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Windows 10</b> (21H2)
 
+## Prerequisites
+
+Before beginning the osTicket installation, ensure you have the following:
+
+- **Operating System**: Windows 10 (64-bit)
+- **Virtualization**: Access to Microsoft Azure or any VM platform
+- **Virtual Machine Specs**:
+  - Name: `osticket-vm`
+  - 4 vCPUs
+  - Username: `labuser`
+- **Required Software/Tools**:
+  - osTicket Installation ZIP Package  
+  - PHP (version 7.3.8)  
+  - MySQL (version 5.5.62)  
+  - IIS (Internet Information Services) with CGI enabled  
+  - PHP Manager for IIS  
+  - URL Rewrite Module  
+  - VC++ Redistributable  
+  - HeidiSQL (for MySQL GUI management)
+
+> ⚠️ Ensure all software is downloaded and available before beginning the installation process.  
+> Administrative privileges are required for setup.
 
 <h2>Installation Steps</h2>
 
