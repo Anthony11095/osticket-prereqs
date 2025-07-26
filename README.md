@@ -448,39 +448,99 @@ This guide provides clear, structured steps to install and configure a virtual m
 - Right-click the `osTicket-v1.15.8.zip` file.
 - Select **Extract All...** to extract the contents for later use in IIS setup.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### 42. Select Extract Location for osTicket Files
 
 ![image](https://github.com/user-attachments/assets/fb4d00ff-7e43-456a-a907-7f2e56d13396)
 
+- When prompted, confirm the destination folder where osTicket will be extracted (e.g., `C:\Users\[YourName]\Desktop\osTicket-Installation-Files\osTicket-v1.15.8`).
+- Ensure **"Show extracted files when complete"** is checked.
+- Click **Extract**.
+
+---
+
+### 43. Wait for Extraction to Complete
+
 ![image](https://github.com/user-attachments/assets/27abff5d-7315-49b0-8f0b-8d71862577cb)
+
+- Allow all files to finish extracting.
+- You should see a progress window showing file copy completion.
+
+---
+
+### 44. Open File Explorer
 
 ![image](https://github.com/user-attachments/assets/f837e0f3-e258-4746-aa1d-9397c8dc45d8)
 
+- Open **File Explorer** from the taskbar or Start Menu.
+- Navigate to the extracted folder `osTicket-v1.15.8`.
+
+---
+
+### 45. Locate the Upload Folder
+
 ![image](https://github.com/user-attachments/assets/3ade8947-3914-44d2-8ec5-1e0141923f42)
+
+- Inside the `osTicket-v1.15.8` directory, identify the `upload` folder.
+- This folder contains the web files needed for deployment.
+
+---
+
+### 46. Navigate to the IIS Web Root Directory
 
 ![image](https://github.com/user-attachments/assets/d64905ed-0582-488e-ace8-138db68f9c9c)
 
+- In File Explorer, go to:  
+  `C:\inetpub\wwwroot`
+
+---
+
+### 47. Move Upload Folder to IIS Root
+
 ![image](https://github.com/user-attachments/assets/0093e009-3ed9-4605-8b86-721a52161535)
 
+- Drag the entire `upload` folder from the osTicket extraction directory into the `C:\inetpub\wwwroot` folder.
+
+---
+
+### 48. Confirm Upload Folder Placement
+
 ![image](https://github.com/user-attachments/assets/4dedcbc6-2a35-4e39-b33a-1ea8e581bc20)
+
+- Ensure `upload` is now visible under `wwwroot`:  
+  `C:\inetpub\wwwroot\upload`
+- This sets up osTicket to be accessible through the local web server.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ![image](https://github.com/user-attachments/assets/c57d0faf-9e35-4b51-b1e0-0b4e89d73e75)
 
