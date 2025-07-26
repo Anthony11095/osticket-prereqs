@@ -243,22 +243,69 @@ This guide provides clear, structured steps to install and configure a virtual m
 - Click **Install** and wait for the setup to complete.
 - After installation finishes, click **Finish** to exit the wizard.
 
+  ### 20. Accept the License Terms for URL Rewrite Module
 
+  ![image](https://github.com/user-attachments/assets/eb1dec65-8129-486e-a6a8-d29e3b3b5e7c)
 
+- When prompted, check the box labeled **I accept the terms in the License Agreement**.
+- Click **Install** to begin installation.
 
+---
 
-
-
-
-![image](https://github.com/user-attachments/assets/eb1dec65-8129-486e-a6a8-d29e3b3b5e7c)
+### 21. Complete the URL Rewrite Installation
 
 ![image](https://github.com/user-attachments/assets/ab3accf2-e3cb-46f1-bc2e-84a426cc3b1b)
 
+- After installation completes, a confirmation screen will appear.
+- Click **Finish** to exit the setup wizard.
+
+---
+
+### 22. Open File Explorer to Access Installation Files
+
 ![image](https://github.com/user-attachments/assets/cd82c5b8-3fb8-4fcd-a5dc-d6fb1d69cd80)
+
+- Launch **File Explorer** and locate the `osTicket-Installation-Files` folder.
+- Verify that all necessary installation files are present in the folder.
+
+---
+
+### 23. Navigate to the C: Drive
 
 ![image](https://github.com/user-attachments/assets/fa9ed4dd-0a4c-4705-aaff-241606570866)
 
+- In File Explorer, click on **This PC** and then **Windows (C:)**.
+- You will extract PHP files into this location.
+
+---
+
+### 24. Create the PHP Directory on the C: Drive
+
 ![image](https://github.com/user-attachments/assets/6b455a62-3d36-4808-8cbf-fca2fc4860a8)
+
+- In the `C:\` drive, right-click in an empty space.
+- Select **New > Folder** and name the folder `PHP`.
+
+---
+
+### 25. Begin PHP Extraction Process
+
+![image](https://github.com/user-attachments/assets/6b455a62-3d36-4808-8cbf-fca2fc4860a8)
+
+- Return to the `osTicket-Installation-Files` folder.
+- Right-click on the PHP archive file (e.g., `php-7.3.8-nts-Win32-VC15-x86.zip`).
+- Click **Extract All...**.
+
+---
+
+### 26. Extract PHP Files to C:\PHP
+
+![image](https://github.com/user-attachments/assets/6b455a62-3d36-4808-8cbf-fca2fc4860a8)
+
+- In the extraction dialog, browse to and select the `C:\PHP` folder.
+- Ensure the checkbox **Show extracted files when complete** is selected.
+- Click **Extract** to complete the process.
+
 
 ![image](https://github.com/user-attachments/assets/5925941f-644d-419c-bf25-d873e1c1a214)
 
