@@ -358,31 +358,95 @@ This guide provides clear, structured steps to install and configure a virtual m
 
 ![image](https://github.com/user-attachments/assets/fc50cfe7-98a4-48b0-be21-2e6d2ea8db53)
 
+![image](https://github.com/user-attachments/assets/f262588c-6aa2-4442-9b32-cbf111690273)
 
+![image](https://github.com/user-attachments/assets/5785a4c9-9095-4828-9bb2-0bb84ecfb416)
 
+![image](https://github.com/user-attachments/assets/45a1f5bc-00a5-4573-b898-7d7aa04cdba1)
 
+![image](https://github.com/user-attachments/assets/23fd2755-1e84-4d73-8107-bc024c483c3d)
 
+![image](https://github.com/user-attachments/assets/c0d21028-7d14-41c2-b3e1-23ca30c8be92)
 
+![image](https://github.com/user-attachments/assets/76ef105a-de06-4a21-96b9-65a0b4ebaa9b)
 
+![image](https://github.com/user-attachments/assets/3c7625f7-a8fa-481c-acb0-623b34d2bd23)
 
+![image](https://github.com/user-attachments/assets/79f4b70a-a697-4a77-a2f5-b023fe2569f4)
 
+![image](https://github.com/user-attachments/assets/fb4d00ff-7e43-456a-a907-7f2e56d13396)
 
+![image](https://github.com/user-attachments/assets/27abff5d-7315-49b0-8f0b-8d71862577cb)
 
+![image](https://github.com/user-attachments/assets/f837e0f3-e258-4746-aa1d-9397c8dc45d8)
 
+![image](https://github.com/user-attachments/assets/3ade8947-3914-44d2-8ec5-1e0141923f42)
 
+![image](https://github.com/user-attachments/assets/d64905ed-0582-488e-ace8-138db68f9c9c)
 
+![image](https://github.com/user-attachments/assets/0093e009-3ed9-4605-8b86-721a52161535)
 
+![image](https://github.com/user-attachments/assets/4dedcbc6-2a35-4e39-b33a-1ea8e581bc20)
 
+![image](https://github.com/user-attachments/assets/c57d0faf-9e35-4b51-b1e0-0b4e89d73e75)
 
+![image](https://github.com/user-attachments/assets/d0133aed-bbe9-4c08-a039-348cf6e66d20)
 
+![image](https://github.com/user-attachments/assets/1fbe20a9-8fce-4ec9-ac3a-39edcca5b8d3)
 
+![image](https://github.com/user-attachments/assets/c79ded4d-3e6e-419f-a9dd-18c4f3c5f246)
 
+![image](https://github.com/user-attachments/assets/3744f375-2559-492f-89bd-6e86c8452a3f)
 
+![image](https://github.com/user-attachments/assets/b287b4a1-7f52-4a93-9d6e-d2c94d1d8dfe)
 
+![image](https://github.com/user-attachments/assets/3ae6b9ca-a5ca-4292-aa18-9e7840f7b756)
 
+![image](https://github.com/user-attachments/assets/ac16d6fc-86ba-43f3-b05c-df7f778090ae)
 
+![image](https://github.com/user-attachments/assets/cc54e587-15fb-43ac-873c-f41ca47b9858)
 
+![image](https://github.com/user-attachments/assets/6e08fd28-a95e-469d-b5c4-9776c7d97424)
 
+![image](https://github.com/user-attachments/assets/8599cbfa-de74-473a-94b8-b03dea500f03)
+
+![image](https://github.com/user-attachments/assets/ffcc65b8-4c0f-49d3-b536-f07c3e3900d4)
+
+![image](https://github.com/user-attachments/assets/ea296d60-b9e7-4450-922c-681c8663c786)
+
+![image](https://github.com/user-attachments/assets/e32ce106-8fa7-42a1-9393-f78e92efa951)
+
+![image](https://github.com/user-attachments/assets/66a9abd9-8836-4589-8008-9ba0d2f3874b)
+
+![image](https://github.com/user-attachments/assets/c06caf4b-74a7-4a01-a025-c3ab16aa982d)
+
+![image](https://github.com/user-attachments/assets/7b223d84-f770-41dc-8e5b-b616ba9fc826)
+
+![image](https://github.com/user-attachments/assets/5a1f34bd-eebb-4392-a65f-5de85865813a)
+
+![image](https://github.com/user-attachments/assets/83104af5-65b3-406f-97dc-86fc9f677445)
+
+![image](https://github.com/user-attachments/assets/7c558d2f-3fae-4856-8165-522e3f14ac0a)
+
+![image](https://github.com/user-attachments/assets/e9c8221d-1223-480f-8005-36d7da06c1f0)
+
+![image](https://github.com/user-attachments/assets/d92683e3-a512-4d65-a026-41f69841db7a)
+
+![image](https://github.com/user-attachments/assets/acfe43cd-6650-420c-a916-34f4539c329a)
+
+![image](https://github.com/user-attachments/assets/8dac7613-4d64-47e6-bb2d-6eb140c8e2ff)
+
+![image](https://github.com/user-attachments/assets/524fc438-dbce-4d97-a510-a405a9b8fd69)
+
+![image](https://github.com/user-attachments/assets/229fdd59-ff17-443d-b7ac-035d37fd2943)
+
+![image](https://github.com/user-attachments/assets/229bf3eb-9ffe-4746-b78f-5f785ac57cb3)
+
+![image](https://github.com/user-attachments/assets/d43eeb02-d598-469d-b257-2a656bf9cb98)
+
+![image](https://github.com/user-attachments/assets/f31830e3-cc9a-48d4-92ec-8893bc3354e0)
+
+![image](https://github.com/user-attachments/assets/5153462d-3d70-4462-bc39-06384d4808f8)
 
 
 
