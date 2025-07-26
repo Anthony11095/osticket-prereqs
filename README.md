@@ -42,11 +42,13 @@ Before beginning the osTicket installation, ensure you have the following:
 <h2>Installation Steps</h2>
 
 Image 1.
-<p>
+
 <img width="1896" height="859" alt="creating a virtual machine for osticket part 1" src="https://github.com/user-attachments/assets/6b21324a-4e61-4df7-b002-6608fefcabf8" />
 
 Image 2. <p>
 <img width="1907" height="864" alt="created virtual machine for osticket" src="https://github.com/user-attachments/assets/9c4425e7-ac0e-4b48-86c4-84f252cb68e8" />
+
+![IMG_7682](https://github.com/user-attachments/assets/2eb0c861-c8b2-4991-81dd-c956f59a19e7)
 
 Image 3.
 
