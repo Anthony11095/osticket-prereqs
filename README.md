@@ -405,31 +405,6 @@ This guide provides clear, structured steps to install and configure a virtual m
 
 ---
 
-### 37. Register PHP Executable
-
-![image](https://github.com/user-attachments/assets/45a1f5bc-00a5-4573-b898-7d7aa04cdba1)
-
-- In PHP Manager, click **Register new PHP version**.
-- Browse to `C:\PHP` and select the `php-cgi.exe` file.
-- Click **Open** to register the PHP executable.
-
----
-
-### 38. Prepare to Add New Website
-
-![image](https://github.com/user-attachments/assets/45a1f5bc-00a5-4573-b898-7d7aa04cdba1)
-
-- In IIS Manager, right-click **Sites** and choose **Add Website...**.
-- This will be configured in the next steps.
-
----
-
-### 39. Extract osTicket Files
-
-![image](https://github.com/user-attachments/assets/23fd2755-1e84-4d73-8107-bc024c483c3d)
-
-- In File Explorer, locate `osTicket-v1.15.8.zip`.
-- Right-click the file and choose **Extract All...**.
 
 
 
