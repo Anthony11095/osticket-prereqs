@@ -692,23 +692,84 @@ This guide provides clear, structured steps to install and configure a virtual m
     Confirm that `Everyone` now appears in the permission list with **Full control** and no inherited status.  
     This grants full manual access to the `ost-config.php` file as required.
 
+69. **Fill Out System Settings in osTicket Installer**  
+ ![image](https://github.com/user-attachments/assets/83104af5-65b3-406f-97dc-86fc9f677445)
+Complete the following fields:
+- Helpdesk Name  
+- Default Email  
+- Choose Primary Language (e.g., English - United States)
 
+70. **Enter Admin User Account Information**
+    ![image](https://github.com/user-attachments/assets/7c558d2f-3fae-4856-8165-522e3f14ac0a)
+Fill out all required admin account fields:
+- First Name, Last Name  
+- Email Address  
+- Username  
+- Password and Confirm Password
 
-![image](https://github.com/user-attachments/assets/83104af5-65b3-406f-97dc-86fc9f677445)
+71. **Enter Database Configuration**
+    ![image](https://github.com/user-attachments/assets/e9c8221d-1223-480f-8005-36d7da06c1f0)
+Provide connection info:
+- MySQL Table Prefix (e.g., `ost_`)  
+- Hostname (usually `localhost`)  
+- Database name, username, and password
 
-![image](https://github.com/user-attachments/assets/7c558d2f-3fae-4856-8165-522e3f14ac0a)
+72. **Locate Stored Database Credentials**  
+ ![image](https://github.com/user-attachments/assets/d92683e3-a512-4d65-a026-41f69841db7a)
+Open the saved text file (e.g., `credentials.txt`) on your system to retrieve:
+- MySQL root username/password  
+- osTicket admin username/password
 
-![image](https://github.com/user-attachments/assets/e9c8221d-1223-480f-8005-36d7da06c1f0)
+73. **Navigate to Installation Files on Desktop**  
+  ![image](https://github.com/user-attachments/assets/acfe43cd-6650-420c-a916-34f4539c329a)
+From the Desktop, open the folder that contains:
+- osTicket files  
+- Credentials text file  
+This ensures you have everything ready for setup and access.
 
-![image](https://github.com/user-attachments/assets/d92683e3-a512-4d65-a026-41f69841db7a)
+74. **Open Setup Folder and Review File Contents**  
+ ![image](https://github.com/user-attachments/assets/8dac7613-4d64-47e6-bb2d-6eb140c8e2ff)
+Open `osTicket-Installation-Files` to verify required components are present:
+- osTicket version folder  
+- PHP installer  
+- MySQL installer  
+- HeidiSQL  
+- VC++ Redistributable  
+- PHP Manager
 
-![image](https://github.com/user-attachments/assets/acfe43cd-6650-420c-a916-34f4539c329a)
-
-![image](https://github.com/user-attachments/assets/8dac7613-4d64-47e6-bb2d-6eb140c8e2ff)
-
+75. **Install HeidiSQL (Database GUI Tool)**  
 ![image](https://github.com/user-attachments/assets/524fc438-dbce-4d97-a510-a405a9b8fd69)
+Launch the HeidiSQL setup file and complete installation:
+- Accept the license agreement  
+- Click **Next** through all prompts  
+- Finish the installation
 
-![image](https://github.com/user-attachments/assets/229fdd59-ff17-443d-b7ac-035d37fd2943)
+76. **Configure HeidiSQL Session Settings**  
+ ![image](https://github.com/user-attachments/assets/229fdd59-ff17-443d-b7ac-035d37fd2943)
+In the session setup window:
+- Network type: MariaDB or MySQL (TCP/IP)  
+- Hostname: `127.0.0.1`  
+- User: `root`  
+- Password: `root` (or the one from your credentials file)  
+- Port: `3306`  
+Click **Open** to connect.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ![image](https://github.com/user-attachments/assets/229bf3eb-9ffe-4746-b78f-5f785ac57cb3)
 
