@@ -200,13 +200,55 @@ This guide provides clear, structured steps to install and configure a virtual m
 - Windows will begin applying changes.
 - Wait until the progress bar completes and the system confirms the features were successfully installed.
 
+### 15. Open the Installation Files Directory
+
 ![image](https://github.com/user-attachments/assets/6b35f614-1284-4c41-9d0d-f0f35c1f176f)
+
+- Navigate to the folder where you extracted the osTicket installation files.
+- Open the folder named `osTicket-Installation-Files` to view the contents.
+
+---
+
+### 16. Review Installation Package Contents
 
 ![image](https://github.com/user-attachments/assets/35607569-71d8-4620-ae73-3f8ba21d94ee)
 
+- The folder should contain multiple setup files, including:
+  - HeidiSQL
+  - MySQL installer
+  - osTicket archive
+  - PHP package
+  - PHP Manager for IIS
+  - URL Rewrite module
+  - Visual C++ Redistributable
+
+---
+
+### 17. Install PHP Manager for IIS
+
 ![image](https://github.com/user-attachments/assets/1b53f7f7-fe3a-47d1-b9e2-945079b18adb)
 
+- Locate and double-click `PHPManagerForIIS_V1.5.0`.
+- In the setup wizard that appears, click **Next** to proceed through the installation steps.
+- Complete the installation using default settings.
+
+---
+
+### 18. Install URL Rewrite Module
+
 ![image](https://github.com/user-attachments/assets/65b97158-f4c0-406e-b010-cf811c0fc89b)
+
+- Locate and run the `rewrite_amd64_en-US` installer.
+- Accept the license terms by checking **I accept the terms in the License Agreement**.
+- Click **Install** and wait for the setup to complete.
+- After installation finishes, click **Finish** to exit the wizard.
+
+
+
+
+
+
+
 
 ![image](https://github.com/user-attachments/assets/eb1dec65-8129-486e-a6a8-d29e3b3b5e7c)
 
