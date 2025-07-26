@@ -108,7 +108,7 @@ This guide provides clear, structured steps to install and configure a virtual m
   - Diagnostic data
 - After reviewing all settings, click **Accept** to proceed to the desktop.
 
-- ### 5. Download the osTicket Installation Files
+- ### 6. Download the osTicket Installation Files
 
   ![image](https://github.com/user-attachments/assets/79e96e3e-d017-4479-8306-57988621cce8)
 
@@ -119,7 +119,7 @@ This guide provides clear, structured steps to install and configure a virtual m
 
 ---
 
-### 6. Extract the Installation Files
+### 7. Extract the Installation Files
 
 ![image](https://github.com/user-attachments/assets/04ff085e-1b94-47ff-b021-ec9e3eed6947)
 
@@ -131,7 +131,7 @@ This guide provides clear, structured steps to install and configure a virtual m
 
 ---
 
-### 7. Confirm Files Were Extracted
+### 8. Confirm Files Were Extracted
 
 ![image](https://github.com/user-attachments/assets/e1fa0426-f086-409b-aef4-19ce762690ff)
 
@@ -141,7 +141,7 @@ This guide provides clear, structured steps to install and configure a virtual m
 
 ---
 
-### 8. Open Control Panel
+### 9. Open Control Panel
 
 ![image](https://github.com/user-attachments/assets/168e32a0-7291-4b2f-9734-54bb2cd587e8)
 
