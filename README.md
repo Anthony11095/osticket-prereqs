@@ -577,57 +577,107 @@ This guide provides clear, structured steps to install and configure a virtual m
 - Confirm that the extension warnings are now resolved.
 - Click **Continue** to proceed with installation.
 
+---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### **55. Navigate to the `include` Directory**
 
 ![image](https://github.com/user-attachments/assets/3ae6b9ca-a5ca-4292-aa18-9e7840f7b756)
 
+- Open **File Explorer**.
+- Go to: `C:\inetpub\wwwroot\osTicket\include`
+- Locate the file named: `ost-sampleconfig.php`
+
+---
+
+### **56. Rename Configuration File**
+
 ![image](https://github.com/user-attachments/assets/ac16d6fc-86ba-43f3-b05c-df7f778090ae)
+
+- Right-click `ost-sampleconfig.php` and choose **Rename**.
+- Rename the file to: `ost-config.php`
+- Press **Enter** to confirm.
+
+---
+
+### **57. Set Permissions for `ost-config.php`**
 
 ![image](https://github.com/user-attachments/assets/cc54e587-15fb-43ac-873c-f41ca47b9858)
 
+- Right-click `ost-config.php` and select **Properties**.
+- Go to the **Security** tab and click **Advanced**.
+
+---
+
+### **58. Grant Required Permissions**
+
 ![image](https://github.com/user-attachments/assets/6e08fd28-a95e-469d-b5c4-9776c7d97424)
 
+- In the **Advanced Security Settings** window:
+  - Confirm that **SYSTEM** and **IIS_IUSRS** have these permissions:
+    - Modify  
+    - Read & execute  
+    - Read  
+    - Write  
+- Click **Apply**, then **OK** to close all dialogs.
+
+---
+
+### **59. Refresh the Setup Page**
+
 ![image](https://github.com/user-attachments/assets/8599cbfa-de74-473a-94b8-b03dea500f03)
+
+- In your browser, visit: `http://localhost/osTicket/setup`
+- Confirm that the permission warning for `ost-config.php` is no longer displayed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ![image](https://github.com/user-attachments/assets/ffcc65b8-4c0f-49d3-b536-f07c3e3900d4)
 
