@@ -286,20 +286,73 @@ This guide provides clear, structured steps to install and configure a virtual m
 - In the `C:\` drive, right-click in an empty space.
 - Select **New > Folder** and name the folder `PHP`.
 
-
-
+### 25. Create PHP Folder in C: Drive
 
 ![image](https://github.com/user-attachments/assets/5925941f-644d-419c-bf25-d873e1c1a214)
 
+- Open File Explorer.
+- Navigate to the `C:\` drive.
+- Right-click in an empty area and select **New > Folder**.
+- Name the new folder: `PHP`.
+
+---
+
+### 26. Extract PHP Files
+
 ![image](https://github.com/user-attachments/assets/408076be-58d2-4868-8bff-9bf58fbc13f4)
+
+- Go to the `osTicket-Installation-Files` folder.
+- Right-click on the `php-7.3.8-nts-Win32-VC15-x86.zip` file.
+- Select **Extract All...** from the context menu.
+- Click **Browse**, then navigate to and select `C:\PHP`.
+- Confirm the folder path shows as `C:\PHP`, then click **Extract**.
+
+---
+
+### 27. Wait for PHP Extraction to Complete
 
 ![image](https://github.com/user-attachments/assets/dca9d67e-9678-4370-8fff-34781f8281b3)
 
+- Allow time for all files to be copied.
+- Once the progress bar reaches 100%, confirm the PHP files are located in `C:\PHP`.
+
+---
+
+### 28. Run Visual C++ Redistributable Installer
+
 ![image](https://github.com/user-attachments/assets/6fbe51a6-d0c6-4d2d-a387-234f1f1933c3)
+
+- In the `osTicket-Installation-Files` folder, double-click `VC_redist.x86.exe`.
+- On the license screen, check **I agree to the license terms and conditions**.
+- Click **Install** to begin the setup.
+
+---
+
+### 29. Complete Visual C++ Installation
+
+![image](https://github.com/user-attachments/assets/6fbe51a6-d0c6-4d2d-a387-234f1f1933c3)
+
+- Wait for the installation to finish.
+- Once complete, click **Close** to exit the installer.
+
+---
+
+### 30. Begin MySQL Server 5.5 Setup
 
 ![image](https://github.com/user-attachments/assets/0ea4ee0d-7ae7-451c-8f5b-eda66ec9e106)
 
+- Locate and double-click the `mysql-5.5.62-win32` setup file.
+- The setup wizard will launch and begin the installation process.
+- Wait for the status bar to show progress.
+
+---
+
+### 31. Launch MySQL Configuration Wizard
+
 ![image](https://github.com/user-attachments/assets/8a325819-4de4-4b77-9d2a-d333d175e4b7)
+
+- After installation, the **MySQL Server Instance Configuration Wizard** will automatically launch.
+- You will begin configuring MySQL Server 5.5 settings in the next steps.
 
 ![image](https://github.com/user-attachments/assets/af77d00a-2097-4ce1-8b7e-764168404815)
 
