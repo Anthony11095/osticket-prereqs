@@ -50,6 +50,44 @@ Image 2. <p>
 
 ![IMG_7682](https://github.com/user-attachments/assets/2eb0c861-c8b2-4991-81dd-c956f59a19e7)
 
-Image 3.
+![image](https://github.com/user-attachments/assets/ffca73e8-b89d-4109-915a-5cb337706fc3)
+
+<img width="2360" height="1640" alt="image" src="https://github.com/user-attachments/assets/ece4e4c0-91f0-432a-9a8e-748e31dbdc60" />
+
+![image](https://github.com/user-attachments/assets/79e96e3e-d017-4479-8306-57988621cce8)
+
+![image](https://github.com/user-attachments/assets/04ff085e-1b94-47ff-b021-ec9e3eed6947)
+
+![image](https://github.com/user-attachments/assets/e1fa0426-f086-409b-aef4-19ce762690ff)
+
+![image](https://github.com/user-attachments/assets/168e32a0-7291-4b2f-9734-54bb2cd587e8)
+
+![image](https://github.com/user-attachments/assets/6f20edf0-2e1c-4edb-bce9-ff50ee2aced9)
+
+![image](https://github.com/user-attachments/assets/61d6e725-6981-45ea-808d-a6b39b3984d6)
+
+![image](https://github.com/user-attachments/assets/9c9dc8ad-8f0a-46ce-aa0a-665842caa7fa)
+
+![image](https://github.com/user-attachments/assets/04bc4651-8b02-400e-ba5c-28961697db4c)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ![osTicket Installer - Installation Success](https://user-images.githubusercontent.com/YOUR_IMAGE_LINK.jpg)
