@@ -405,27 +405,68 @@ This guide provides clear, structured steps to install and configure a virtual m
 
 ---
 
-
-
-
-
-
-
-
-
-
-
+### 37. Open PHP Manager in IIS
 
 ![image](https://github.com/user-attachments/assets/9a85a3de-5e1c-4986-a00a-fe9e2aa0f2d6)
 
+- In IIS Manager under the `osticket-vm` site, double-click **PHP Manager**.
+
+---
+
+### 38. Register PHP Executable
 
 ![image](https://github.com/user-attachments/assets/c0d21028-7d14-41c2-b3e1-23ca30c8be92)
 
+- In PHP Manager, click **Register new PHP version**.
+- Navigate to `C:\PHP`.
+- Select `php-cgi.exe`.
+- Click **Open** to confirm.
+
+---
+
+### 39. Verify PHP Registration
+
 ![image](https://github.com/user-attachments/assets/76ef105a-de06-4a21-96b9-65a0b4ebaa9b)
+
+- Confirm that **PHP version** and **PHP executable** are now displayed in PHP Manager.
+
+---
+
+### 40. Add New Website in IIS
 
 ![image](https://github.com/user-attachments/assets/3c7625f7-a8fa-481c-acb0-623b34d2bd23)
 
+- In the left panel under **Sites**, right-click and select **Add Website...**.
+
+---
+
+### 41. Extract osTicket Zip File
+
 ![image](https://github.com/user-attachments/assets/79f4b70a-a697-4a77-a2f5-b023fe2569f4)
+
+- In File Explorer, navigate to `osTicket-Installation-Files`.
+- Right-click the `osTicket-v1.15.8.zip` file.
+- Select **Extract All...** to extract the contents for later use in IIS setup.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ![image](https://github.com/user-attachments/assets/fb4d00ff-7e43-456a-a907-7f2e56d13396)
 
