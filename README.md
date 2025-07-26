@@ -150,13 +150,55 @@ This guide provides clear, structured steps to install and configure a virtual m
 - Under **Programs**, click **Uninstall a program**.
 - This section will allow you to verify existing software installations or remove any conflicting software before proceeding with osTicket setup.
 
-![image](https://github.com/user-attachments/assets/6f20edf0-2e1c-4edb-bce9-ff50ee2aced9)
+ ### 10. Open Windows Features
+
+![image](https://github.com/user-attachments/assets/6f20edf0-2e1c-4edb-bce9-ff50ee2aced9) 
+
+- Go to **Control Panel** > **Programs** > **Turn Windows features on or off**.
+- A new window titled **Windows Features** will open.
+- Scroll through the list to find the required components.
+
+---
+
+### 11. Enable Internet Information Services (IIS)
 
 ![image](https://github.com/user-attachments/assets/61d6e725-6981-45ea-808d-a6b39b3984d6)
 
+- In the Windows Features list, check the box for **Internet Information Services**.
+- Expand the node by clicking the ➕ icon next to it.
+  
+### 12. Expand and Configure IIS Components
+
 ![image](https://github.com/user-attachments/assets/9c9dc8ad-8f0a-46ce-aa0a-665842caa7fa)
 
+- Under **Internet Information Services**, expand the following:
+  - **Web Management Tools**
+  - **World Wide Web Services**
+
+---
+
+### 13. Enable Application Development Features
+
+- Under **World Wide Web Services**, expand **Application Development Features**.
+- Check the following options:
+  - **.NET Extensibility 4.8**
+  - **ASP**
+  - **ASP.NET 3.5**
+  - **ASP.NET 4.8**
+  - **CGI**
+  - **ISAPI Extensions**
+  - **ISAPI Filters**
+  - **Server-Side Includes**
+
+---
+
+### 14. Apply Changes and Wait for Configuration to Complete
+
 ![image](https://github.com/user-attachments/assets/04bc4651-8b02-400e-ba5c-28961697db4c)
+
+- After selecting all required features, click **OK**.
+- Windows will begin applying changes.
+- Wait until the progress bar completes and the system confirms the features were successfully installed.
 
 
 
