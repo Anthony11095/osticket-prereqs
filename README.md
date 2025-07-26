@@ -416,6 +416,7 @@ This guide provides clear, structured steps to install and configure a virtual m
 
 
 
+![image](https://github.com/user-attachments/assets/9a85a3de-5e1c-4986-a00a-fe9e2aa0f2d6)
 
 
 ![image](https://github.com/user-attachments/assets/c0d21028-7d14-41c2-b3e1-23ca30c8be92)
