@@ -629,69 +629,70 @@ This guide provides clear, structured steps to install and configure a virtual m
 - In your browser, visit: `http://localhost/osTicket/setup`
 - Confirm that the permission warning for `ost-config.php` is no longer displayed.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+60. **Launch the osTicket Installer in Browser**
 
 ![image](https://github.com/user-attachments/assets/ffcc65b8-4c0f-49d3-b536-f07c3e3900d4)
 
+    Open your browser and go to `http://localhost/osTicket/setup`.  
+    This begins the osTicket installation process. You should see the welcome screen titled *"Thank You for Choosing osTicket!"*
+
+61.  **Open File Properties for `ost-config.php`**
+
 ![image](https://github.com/user-attachments/assets/ea296d60-b9e7-4450-922c-681c8663c786)
+    
+    Navigate to `C:\inetpub\wwwroot\osTicket\include`, locate `ost-config.php`, right-click the file, and select **Properties**.  
+    Go to the **Security** tab, then click **Advanced** to configure permissions.
+
+62. **View and Manage Current Permission Entries**
 
 ![image](https://github.com/user-attachments/assets/e32ce106-8fa7-42a1-9393-f78e92efa951)
+ 
+    In the Advanced Security Settings window for `ost-config.php`, review the list of inherited permissions.  
+    Click **Disable inheritance** to break inheritance from parent folders — this prepares the file for a custom permission setup.
+
+63. **Remove Inherited Permissions**
+
+![image](https://github.com/user-attachments/assets/e32ce106-8fa7-42a1-9393-f78e92efa951)
+ 
+    A prompt will appear asking what to do with current inherited permissions.  
+    Choose **“Remove all inherited permissions from this object.”** This strips the file of all previously inherited access.
+
+65. **Verify Permissions Are Cleared**
 
 ![image](https://github.com/user-attachments/assets/66a9abd9-8836-4589-8008-9ba0d2f3874b)
 
+    The permissions list will now show:  
+    _“No groups or users have permission to access this object. However, the owner of this object can assign permissions.”_  
+    This confirms inheritance was successfully removed.
+
+66. **Add New User or Group Access**
+
 ![image](https://github.com/user-attachments/assets/c06caf4b-74a7-4a01-a025-c3ab16aa982d)
+
+    Click **Add**, then choose a principal.  
+    Type `Everyone`, click **Check Names**, and confirm with **OK**.  
+    This prepares to grant access to all users.
+
+67 . **Assign Full Control to Everyone**  
 
 ![image](https://github.com/user-attachments/assets/7b223d84-f770-41dc-8e5b-b616ba9fc826)
 
-![image](https://github.com/user-attachments/assets/5a1f34bd-eebb-4392-a65f-5de85865813a)
+    After selecting `Everyone`, check the boxes for:  
+    - Full control  
+    - Modify  
+    - Read & execute  
+    - Read  
+    - Write  
+    Click **OK** to finalize.
+
+68. **Verify Final Permissions**
+
+    ![image](https://github.com/user-attachments/assets/5a1f34bd-eebb-4392-a65f-5de85865813a)
+
+    Confirm that `Everyone` now appears in the permission list with **Full control** and no inherited status.  
+    This grants full manual access to the `ost-config.php` file as required.
+
+
 
 ![image](https://github.com/user-attachments/assets/83104af5-65b3-406f-97dc-86fc9f677445)
 
