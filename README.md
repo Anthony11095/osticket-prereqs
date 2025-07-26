@@ -510,49 +510,110 @@ This guide provides clear, structured steps to install and configure a virtual m
   `C:\inetpub\wwwroot\upload`
 - This sets up osTicket to be accessible through the local web server.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### 49. Create New osTicket Site in IIS
 
 ![image](https://github.com/user-attachments/assets/c57d0faf-9e35-4b51-b1e0-0b4e89d73e75)
 
+- In **IIS Manager**, right-click **Sites** and select **Add Website...**.
+- For **Site name**, enter: `osTicket`
+- For **Physical path**, browse to:  
+  `C:\inetpub\wwwroot\upload`
+- For **Binding**, set the **Port** to `80` (default).
+- Click **OK** to create the new site.
+
+---
+
+### 50. Verify osTicket Site in IIS
+
 ![image](https://github.com/user-attachments/assets/d0133aed-bbe9-4c08-a039-348cf6e66d20)
+
+- Under **Sites**, confirm that `osTicket` appears beneath **Default Web Site**.
+- Ensure the site is in a **Started** state.
+
+### 51. Review PHP Prerequisites
 
 ![image](https://github.com/user-attachments/assets/1fbe20a9-8fce-4ec9-ac3a-39edcca5b8d3)
 
+- Verify that all **Required** components show green checkmarks:
+  - PHP 7.2 or greater
+  - MySQLi extension for PHP
+- Review the list of **Recommended** PHP extensions and take note of which are missing (marked with red ❌).
+
+---
+
+### 52. Open PHP Manager in IIS
+
 ![image](https://github.com/user-attachments/assets/c79ded4d-3e6e-419f-a9dd-18c4f3c5f246)
+
+- In IIS, select the `osTicket` site.
+- Double-click **PHP Manager** in the middle pane.
+
+---
+
+### 53. Enable Missing PHP Extensions
 
 ![image](https://github.com/user-attachments/assets/3744f375-2559-492f-89bd-6e86c8452a3f)
 
+- Click **Enable or disable an extension**.
+- Enable required and recommended extensions, such as:
+  - `php_imap.dll`
+  - `php_intl.dll`
+  - `php_xml.dll`
+  - `php_apcu.dll`
+  - `php_opcache.dll`
+- Confirm that their status updates to **Enabled**.
+
+---
+
+### 54. Refresh osTicket Setup Page
+
 ![image](https://github.com/user-attachments/assets/b287b4a1-7f52-4a93-9d6e-d2c94d1d8dfe)
+
+- Return to the browser and reload `http://localhost/osTicket/setup`.
+- Confirm that the extension warnings are now resolved.
+- Click **Continue** to proceed with installation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ![image](https://github.com/user-attachments/assets/3ae6b9ca-a5ca-4292-aa18-9e7840f7b756)
 
