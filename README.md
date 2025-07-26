@@ -108,13 +108,47 @@ This guide provides clear, structured steps to install and configure a virtual m
   - Diagnostic data
 - After reviewing all settings, click **Accept** to proceed to the desktop.
 
-![image](https://github.com/user-attachments/assets/79e96e3e-d017-4479-8306-57988621cce8)
+- ### 5. Download the osTicket Installation Files
+
+  ![image](https://github.com/user-attachments/assets/79e96e3e-d017-4479-8306-57988621cce8)
+
+- Open the download link provided for the `osTicket-Installation-Files.zip`.
+- Since the file is large, Google Drive may not scan it for viruses.
+- Click **Download anyway** to begin the download.
+- Wait for the file to finish downloading completely.
+
+---
+
+### 6. Extract the Installation Files
 
 ![image](https://github.com/user-attachments/assets/04ff085e-1b94-47ff-b021-ec9e3eed6947)
 
+- Locate the downloaded `.zip` file in your browser's downloads bar or Downloads folder.
+- Right-click the file and choose **Extract All...** or use the default extraction prompt.
+- Choose a destination folder (e.g., Desktop\osTicket-Installation-Files).
+- Ensure the checkbox **Show extracted files when complete** is selected.
+- Click **Extract**.
+
+---
+
+### 7. Confirm Files Were Extracted
+
 ![image](https://github.com/user-attachments/assets/e1fa0426-f086-409b-aef4-19ce762690ff)
 
+- Navigate to the folder where the zip file was extracted.
+- Verify the `osTicket-Installation-Files` folder appears on the Desktop or chosen location.
+- Open the folder to confirm that its contents are accessible.
+
+---
+
+### 8. Open Control Panel
+
 ![image](https://github.com/user-attachments/assets/168e32a0-7291-4b2f-9734-54bb2cd587e8)
+
+- Click the **Start** menu and type `Control Panel`, then press Enter.
+- In the Control Panel, locate and click on **Programs**.
+- Under **Programs**, click **Uninstall a program**.
+- This section will allow you to verify existing software installations or remove any conflicting software before proceeding with osTicket setup.
 
 ![image](https://github.com/user-attachments/assets/6f20edf0-2e1c-4edb-bce9-ff50ee2aced9)
 
