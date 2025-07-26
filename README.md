@@ -286,25 +286,7 @@ This guide provides clear, structured steps to install and configure a virtual m
 - In the `C:\` drive, right-click in an empty space.
 - Select **New > Folder** and name the folder `PHP`.
 
----
 
-### 25. Begin PHP Extraction Process
-
-![image](https://github.com/user-attachments/assets/6b455a62-3d36-4808-8cbf-fca2fc4860a8)
-
-- Return to the `osTicket-Installation-Files` folder.
-- Right-click on the PHP archive file (e.g., `php-7.3.8-nts-Win32-VC15-x86.zip`).
-- Click **Extract All...**.
-
----
-
-### 26. Extract PHP Files to C:\PHP
-
-![image](https://github.com/user-attachments/assets/6b455a62-3d36-4808-8cbf-fca2fc4860a8)
-
-- In the extraction dialog, browse to and select the `C:\PHP` folder.
-- Ensure the checkbox **Show extracted files when complete** is selected.
-- Click **Extract** to complete the process.
 
 
 ![image](https://github.com/user-attachments/assets/5925941f-644d-419c-bf25-d873e1c1a214)
