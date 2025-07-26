@@ -354,17 +354,94 @@ This guide provides clear, structured steps to install and configure a virtual m
 - After installation, the **MySQL Server Instance Configuration Wizard** will automatically launch.
 - You will begin configuring MySQL Server 5.5 settings in the next steps.
 
+  ### 32. Select Configuration Type for MySQL
+
 ![image](https://github.com/user-attachments/assets/af77d00a-2097-4ce1-8b7e-764168404815)
+
+- When the MySQL Server Instance Configuration Wizard opens, select **Detailed Configuration**.
+- Click **Next** to proceed.
+
+---
+
+### 33. Set Root Password for MySQL
 
 ![image](https://github.com/user-attachments/assets/fc50cfe7-98a4-48b0-be21-2e6d2ea8db53)
 
+- Check the box for **Modify Security Settings**.
+- Enter a secure password in both **New root password** and **Confirm** fields.
+- Leave **Create An Anonymous Account** unchecked.
+- Click **Next**.
+
+---
+
+### 34. Complete MySQL Configuration
+
 ![image](https://github.com/user-attachments/assets/f262588c-6aa2-4442-9b32-cbf111690273)
+
+- The wizard will begin processing configuration steps:
+  - Prepare configuration
+  - Write configuration file
+  - Start service
+  - Apply security settings
+- Wait for the process to complete.
+
+---
+
+### 35. Open Internet Information Services (IIS) Manager
 
 ![image](https://github.com/user-attachments/assets/5785a4c9-9095-4828-9bb2-0bb84ecfb416)
 
+- Click **Start** and search for `IIS`.
+- Right-click **Internet Information Services (IIS) Manager** and choose **Run as administrator**.
+
+---
+
+### 36. Launch PHP Manager in IIS
+
 ![image](https://github.com/user-attachments/assets/45a1f5bc-00a5-4573-b898-7d7aa04cdba1)
 
+- In IIS Manager, under your server name, select your site (e.g., `osticket-vm`).
+- In the center pane, double-click **PHP Manager**.
+
+---
+
+### 37. Register PHP Executable
+
+![image](https://github.com/user-attachments/assets/45a1f5bc-00a5-4573-b898-7d7aa04cdba1)
+
+- In PHP Manager, click **Register new PHP version**.
+- Browse to `C:\PHP` and select the `php-cgi.exe` file.
+- Click **Open** to register the PHP executable.
+
+---
+
+### 38. Prepare to Add New Website
+
+![image](https://github.com/user-attachments/assets/45a1f5bc-00a5-4573-b898-7d7aa04cdba1)
+
+- In IIS Manager, right-click **Sites** and choose **Add Website...**.
+- This will be configured in the next steps.
+
+---
+
+### 39. Extract osTicket Files
+
 ![image](https://github.com/user-attachments/assets/23fd2755-1e84-4d73-8107-bc024c483c3d)
+
+- In File Explorer, locate `osTicket-v1.15.8.zip`.
+- Right-click the file and choose **Extract All...**.
+
+
+
+
+
+
+
+
+
+
+
+
 
 ![image](https://github.com/user-attachments/assets/c0d21028-7d14-41c2-b3e1-23ca30c8be92)
 
