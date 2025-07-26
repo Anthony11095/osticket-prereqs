@@ -754,30 +754,35 @@ In the session setup window:
 - Port: `3306`  
 Click **Open** to connect.
 
+77. **Create a New Database in HeidiSQL**  
+ ![image](https://github.com/user-attachments/assets/229bf3eb-9ffe-4746-b78f-5f785ac57cb3)
+In HeidiSQL, right-click the session name and choose **Create new → Database**.  
+Name the database `osTicket`, keep the default collation (e.g., `latin1_swedish_ci`), and click **OK**.
 
+78. **Enter Final Database Info into the osTicket Installer**  
+    ![image](https://github.com/user-attachments/assets/d43eeb02-d598-469d-b257-2a656bf9cb98)
+Return to the osTicket installation form. Under **Database Settings**, enter:
+- MySQL Table Prefix: `ost_`  
+- MySQL Hostname: `localhost`  
+- MySQL Database: `osTicket`  
+- MySQL Username: `root`  
+- MySQL Password: (your root password)  
+Click **Install Now** to begin installation.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![image](https://github.com/user-attachments/assets/229bf3eb-9ffe-4746-b78f-5f785ac57cb3)
-
-![image](https://github.com/user-attachments/assets/d43eeb02-d598-469d-b257-2a656bf9cb98)
-
+79. **Installation Confirmation**  
 ![image](https://github.com/user-attachments/assets/f31830e3-cc9a-48d4-92ec-8893bc3354e0)
+Once installed, a message will confirm:  
+**"Congratulations! Your osTicket installation has been completed successfully."**  
+This means osTicket is now set up and ready to configure.  
+Make sure to **secure `ost-config.php`** by removing write permissions as instructed.
 
-![image](https://github.com/user-attachments/assets/5153462d-3d70-4462-bc39-06384d4808f8)
+80. **Installation Complete – Ready for Post-Setup**  
+    ![image](https://github.com/user-attachments/assets/5153462d-3d70-4462-bc39-06384d4808f8)
+You now have access to:
+- **Admin Panel**: `http://localhost/osTicket/scp`  
+- **Helpdesk Site**: `http://localhost/osTicket/`  
+Proceed with post-install configuration using the admin account you created.
+
 
 
 
