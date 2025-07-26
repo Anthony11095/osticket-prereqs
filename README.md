@@ -43,10 +43,48 @@ Before beginning the osTicket installation, ensure you have the following:
 
 Image 1.
 
+## 🔧 osTicket Virtual Machine Installation – Step-by-Step Instructions
+
+This guide provides clear, structured steps to install and configure a virtual machine using Microsoft Azure, as part of the osTicket installation project.
+
 <img width="1896" height="859" alt="creating a virtual machine for osticket part 1" src="https://github.com/user-attachments/assets/6b21324a-4e61-4df7-b002-6608fefcabf8" />
 
-Image 2. <p>
+### 1. Create a Virtual Machine
+
+- Go to the [Microsoft Azure Portal](https://portal.azure.com/).
+- Navigate to **Virtual Machines** > **Create** > **Azure virtual machine**.
+- Fill out the **Basics** tab:
+  - **Subscription**: Choose your Azure subscription.
+  - **Resource Group**: Create or select an existing resource group.
+  - **Virtual machine name**: Enter a recognizable name (e.g., `osTicket-VM`).
+  - **Region**: Select the closest or recommended data center.
+  - **Availability options**: Leave as default unless required.
+  - **Image**: Select `Windows 10 Pro`, or another supported OS image.
+  - **Size**: Choose a size that meets your project needs.
+  - **Administrator account**: Create a username and password.
+- Click **Next** through the remaining configuration tabs or keep defaults.
+- Click **Review + create**, then **Create**.
+
+### 2. Confirm Deployment Completion
+
 <img width="1907" height="864" alt="created virtual machine for osticket" src="https://github.com/user-attachments/assets/9c4425e7-ac0e-4b48-86c4-84f252cb68e8" />
+
+- Wait for the VM deployment process to complete.
+- You will see a confirmation message: **Your deployment is complete**.
+- Click **Go to resource** to access the virtual machine's settings and details.
+
+### 3. Configure Network and Connect
+
+![IMG_7682](https://github.com/user-attachments/assets/2eb0c861-c8b2-4991-81dd-c956f59a19e7)
+
+- In the **Virtual machines** section, locate and select your VM.
+- Click **Connect**, then choose **RDP** to open the connection options.
+- Set up your connection:
+  - **IP Address**: Ensure it’s a public IP.
+  - **Port**: Typically set to 3389.
+  - Enable the checkbox to allow access through Windows Firewall.
+- Download the `.rdp` file and open it to connect to the VM.
+
 
 ![IMG_7682](https://github.com/user-attachments/assets/2eb0c861-c8b2-4991-81dd-c956f59a19e7)
 
