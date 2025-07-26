@@ -200,6 +200,55 @@ This guide provides clear, structured steps to install and configure a virtual m
 - Windows will begin applying changes.
 - Wait until the progress bar completes and the system confirms the features were successfully installed.
 
+![image](https://github.com/user-attachments/assets/6b35f614-1284-4c41-9d0d-f0f35c1f176f)
+
+![image](https://github.com/user-attachments/assets/35607569-71d8-4620-ae73-3f8ba21d94ee)
+
+![image](https://github.com/user-attachments/assets/1b53f7f7-fe3a-47d1-b9e2-945079b18adb)
+
+![image](https://github.com/user-attachments/assets/65b97158-f4c0-406e-b010-cf811c0fc89b)
+
+![image](https://github.com/user-attachments/assets/eb1dec65-8129-486e-a6a8-d29e3b3b5e7c)
+
+![image](https://github.com/user-attachments/assets/ab3accf2-e3cb-46f1-bc2e-84a426cc3b1b)
+
+![image](https://github.com/user-attachments/assets/cd82c5b8-3fb8-4fcd-a5dc-d6fb1d69cd80)
+
+![image](https://github.com/user-attachments/assets/fa9ed4dd-0a4c-4705-aaff-241606570866)
+
+![image](https://github.com/user-attachments/assets/6b455a62-3d36-4808-8cbf-fca2fc4860a8)
+
+![image](https://github.com/user-attachments/assets/5925941f-644d-419c-bf25-d873e1c1a214)
+
+![image](https://github.com/user-attachments/assets/408076be-58d2-4868-8bff-9bf58fbc13f4)
+
+![image](https://github.com/user-attachments/assets/dca9d67e-9678-4370-8fff-34781f8281b3)
+
+![image](https://github.com/user-attachments/assets/6fbe51a6-d0c6-4d2d-a387-234f1f1933c3)
+
+![image](https://github.com/user-attachments/assets/0ea4ee0d-7ae7-451c-8f5b-eda66ec9e106)
+
+![image](https://github.com/user-attachments/assets/8a325819-4de4-4b77-9d2a-d333d175e4b7)
+
+![image](https://github.com/user-attachments/assets/af77d00a-2097-4ce1-8b7e-764168404815)
+
+![image](https://github.com/user-attachments/assets/fc50cfe7-98a4-48b0-be21-2e6d2ea8db53)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
