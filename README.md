@@ -85,12 +85,28 @@ This guide provides clear, structured steps to install and configure a virtual m
   - Enable the checkbox to allow access through Windows Firewall.
 - Download the `.rdp` file and open it to connect to the VM.
 
-
-![IMG_7682](https://github.com/user-attachments/assets/2eb0c861-c8b2-4991-81dd-c956f59a19e7)
+- ### 4. Log In to the Virtual Machine
 
 ![image](https://github.com/user-attachments/assets/ffca73e8-b89d-4109-915a-5cb337706fc3)
 
+- Open the `.rdp` file downloaded from the Azure portal.
+- Enter the administrator username and password set during VM creation.
+- Wait for the Windows login screen to appear and complete the sign-in process.
+- Once logged in, the Windows desktop environment will load.
+
+### 5. Complete Initial Windows Setup
+
 <img width="2360" height="1640" alt="image" src="https://github.com/user-attachments/assets/ece4e4c0-91f0-432a-9a8e-748e31dbdc60" />
+
+- Upon first login, the system will prompt you to configure privacy settings.
+- Review and adjust the following options:
+  - Location
+  - Find my device
+  - Inking & typing
+  - Tailored experiences
+  - Advertising ID
+  - Diagnostic data
+- After reviewing all settings, click **Accept** to proceed to the desktop.
 
 ![image](https://github.com/user-attachments/assets/79e96e3e-d017-4479-8306-57988621cce8)
 
