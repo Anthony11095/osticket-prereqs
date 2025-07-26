@@ -220,4 +220,4 @@ This guide provides clear, structured steps to install and configure a virtual m
 
 
 
-![osTicket Installer - Installation Success](https://user-images.githubusercontent.com/YOUR_IMAGE_LINK.jpg)
+
