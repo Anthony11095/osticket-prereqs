@@ -534,11 +534,15 @@ This guide provides clear, structured steps to install and configure a virtual m
 
 ![image](https://github.com/user-attachments/assets/1fbe20a9-8fce-4ec9-ac3a-39edcca5b8d3)
 
-- Verify that all **Required** components show green checkmarks:
+- Visit `http://localhost/osTicket/setup` in your browser.
+- Confirm the installer loads successfully.
+- Verify that all **Required** components display green checkmarks:
   - PHP 7.2 or greater
   - MySQLi extension for PHP
-- Review the list of **Recommended** PHP extensions and take note of which are missing (marked with red ❌).
-
+- Review the list of **Recommended** PHP extensions:
+  - Take note of any red ❌ icons indicating missing extensions.
+  - These should be enabled to ensure full functionality of osTicket.
+- Click **Continue** when all requirements are met or once you've noted which need to be added.
 ---
 
 ### 52. Open PHP Manager in IIS
